@@ -10,7 +10,7 @@ keywords = ["simd", "wide", "graphics", "math", "linear-algebra"]
 license = "MIT OR Apache-2.0 OR Zlib"
 
 [dependencies]
-wide = { git = "https://github.com/nathanvoglsam/wide.git", branch = "my-sse4.1-fix" }
+wide = { git = "https://github.com/nathanvoglsam/wide.git", branch = "sse4.1-blend-fix" }
 ## wide = { version = "~0.5.2" }
 serde = { version = "1.0", features = [], optional = true }
 mint = { version = "0.5", optional = true }
